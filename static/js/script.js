@@ -141,7 +141,7 @@ function onRecognition() {
 
         }).fail(function(XMLHttpRequest, textStatus, errorThrown) {
             console.log(XMLHttpRequest);
-            alert("error");
+            alert("Error: No Model Loaded");
         })
 
     console.timeEnd("time");
